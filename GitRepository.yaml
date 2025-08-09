@@ -1,0 +1,13 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: flux-playground
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: https://github.com/paraskanwarit/flux-playground.git
+  ref:
+    branch: 
+    
+
+    
